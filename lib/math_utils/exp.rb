@@ -7,9 +7,9 @@ module MathUtils
       b = 1
 
       (2..n).each do
-        next = a + b
+        fib = a + b
         a = b
-        b = next
+        b = fib
       end
 
       return b
