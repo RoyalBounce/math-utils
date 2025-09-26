@@ -1,5 +1,4 @@
 module MathUtils
-  module Utils
     def self.fibonacci(n)
       return 0 if n == 0
       return 1 if n == 1
@@ -15,5 +14,4 @@ module MathUtils
 
       return b
     end
-  end
 end
