@@ -1,17 +1,10 @@
 module MathUtils
-    def self.fibonacci(n)
-      return 0 if n == 0
-      return 1 if n == 1
+    def self.ptop(expr)
 
-      a = 0
-      b = 1
-
-      (2..n).each do
-        fib = a + b
-        a = b
-        b = fib
-      end
-
-      return b
     end
+
+    def self.eval(pexpr)
+
+    end
+
 end
