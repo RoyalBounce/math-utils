@@ -33,6 +33,11 @@ module MathUtils
         self.eval(self.itop(expr))
     end
 
+    def self.tokens(expr)
+        expr.gsub(/(\d|\))(?=\(|\d)/, '\1*')
+            .scan(/\d+(\.\d+)?|\+|\-|\*|\/|\^|\(|\)/)
+    end
+
     
     
 end
