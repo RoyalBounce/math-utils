@@ -1,4 +1,4 @@
-require_relative 'math-utils/exp'
+require_relative 'math_utils/exp'
 
 module MathUtils
   
