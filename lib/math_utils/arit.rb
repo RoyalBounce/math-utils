@@ -1,5 +1,5 @@
 module MathUtils
-  def sum()
-
+  def sum(*numbers)
+    numbers.sum
   end
 end
